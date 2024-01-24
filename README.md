@@ -3,8 +3,8 @@
 
 ## Setup Instructions:
 
-cd into the client folder and type npm start to run the frontend
-cd into the server folder in a separate terminal and type node app.js to start the backend
+- cd into the client folder and type npm start to run the frontend
+- cd into the server folder in a separate terminal and type node app.js to start the backend
 
 # CSE 437s Week 2: Build a To-Do App
 
