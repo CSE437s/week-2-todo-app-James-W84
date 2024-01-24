@@ -7,7 +7,8 @@ app.use(bodyParser.json());
 
 require("dotenv").config();
 const mongoose = require("mongoose");
-const mongoString = process.env.DATABASE_URL;
+const mongoString =
+  "mongodb+srv://james_wu:DDMuZBIlYwF3cTiH@todolist.dbwlucj.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongoString, { ssl: true });
 
