@@ -1,0 +1,22 @@
+#input {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 1.5em;
+    padding-left: 0.3em;
+    width: 500px;
+}
+
+#input_box {
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline;
+    height: 1.5em;
+    padding-left: 0.3em;
+    width: 460px;
+}
+
+#submit {
+    display: inline;
+    height: 1.5em;
+    width: 40px;
+}

@@ -1,0 +1,39 @@
+.item {
+    height: 1.5em;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.open {
+    color: green
+}
+
+.closed {
+    color: red;
+    text-decoration:line-through;
+}
+
+p {
+    border: 1px solid black;
+    border-radius: 4px;
+    display: inline-block;
+    height: 1.5em;
+    margin: 0;
+    padding-left: 0.3em;
+    width: 460px;
+}
+
+.toggle {
+    display: inline;
+    height: 1.5em;
+    margin-left: 0.5em;
+    width: 1.5em;
+}
+
+.open .toggle {
+    background-color: white;
+}
+
+.closed .toggle {
+    background-color: black;
+}
